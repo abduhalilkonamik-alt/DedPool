@@ -1,0 +1,142 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin:0 auto;
+    max-width:100%;
+    width: 88%;
+    background-color:#2A2A2A;
+}
+
+.M{
+ color: black;
+ font-size:210px;
+ margin: 20px;
+ text-align: center;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Meny{
+    display:flex;
+    justify-content:center;
+    gap:31px;
+    padding-bottom: 40px;
+
+}
+
+.sumbit{
+    border-radius: 5px;
+    color:#757575;
+    width: 200px;
+    height: 30px;
+    border:white solid 4px;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+.sumbit2{
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    border: white solid 4px;
+}
+
+.sumbit4{
+    transition: all ease 300ms;
+   border-radius: 5px;
+   border: #D9534F solid 4px;
+   color:white;
+   background-color: #D9534F;
+   width: 70px;
+   height: 30px;
+   
+}
+
+.sumbit4:hover{
+    transition: all ease 300ms;
+    color:white;
+    background-color:#FF0000 ;
+    border-radius: 6px;
+    border:#FF0000 solid 5px;
+}
+
+.container2{
+    margin:0 auto;
+    max-width:100%;
+    width: 88%;
+    background-color:#292525;
+}
+
+img{
+    width:100%
+}
+
+.wrapper{
+ gap:40px;
+ padding-top:20px;
+ padding-bottom:20px ;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.card{
+    padding:20px;
+     border-radius:10px;
+    display:flex;
+    align-items:center;
+    width:250px;
+    gap:10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #333333;
+}
+
+.title{
+    padding-top:7px;
+    font-size:21px;
+    text-align: center;
+    color:#FFFFFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-mini{
+    color:white;
+    width:100px;
+    display: flex;
+    gap:27.99px;
+    font-size:17px;
+    justify-content:center;
+
+}
+
+.p2{
+   color:#FFFFFF;
+    font-size: 17px;
+}
+
+.sumbit5{
+    transition: all ease 300ms;
+    width:76px;
+    height:34px;
+    border-radius: 9px;
+    background-color: #5CB85C;
+    color:white;
+    border:#5CB85C solid 3px;
+}
+
+.sumbit5:hover{
+    transition:all ease 300ms;
+    background-color:#38a44c;
+    color:white;
+    border-radius: 10px;          
+    border:#38a44c solid 5px;
+}
+
+
